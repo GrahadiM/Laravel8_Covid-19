@@ -1,3 +1,14 @@
+## INSTALASI LARAVEL FROM GITHUB
+
+- <code>git clone (from url github)</code>
+- <code>cd (your name project)</code>
+- <code>composer install</code> or <code>composer update</code>
+- <code>cp .env.example .env</code> configuration your file .env in your project Laravel
+- <code>php artisan key:generate</code>
+- <code>php artisan migrate</code> or <code>php artisan migrate --seed</code> or <code>php artisan migrate:refresh --seed</code>
+- <code>php artisan db:seed --class=(Name Seeder)</code>
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
